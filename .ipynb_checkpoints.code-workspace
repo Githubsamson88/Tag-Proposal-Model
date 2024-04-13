@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".ipynb_checkpoints"
+		},
+		{
+			"path": ".venv"
+		},
+		{
+			"path": "__pycache__"
+		},
+		{
+			"path": "bert_model_exemple"
+		},
+		{
+			"path": "templates"
+		}
+	]
+}

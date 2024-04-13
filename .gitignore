@@ -7,7 +7,6 @@ mlruns/
 2024-04-07_01-47-00-bert-model/
 __pycache__/
 .venv/
-bert_model_exemple/
 
 venv/Lib/site-packages/torch/lib/torch_cpu.dll
 bert_model_exemple/pytorch_model.bin
