@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Classification Results</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f3f3f3; /* Couleur de fond */
+        }
+        h1 {
+            color: #333; /* Couleur du texte */
+        }
+        #result {
+            display: inline-block;
+            text-align: left;
+            margin: 0 auto;
+            width: 70%; /* Ajustez la largeur selon vos préférences */
+            background-color: #fff; /* Couleur de fond du résultat */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Classification Results</h1>
+    <div id="result">
+        <p>Input Text: {{ text }}</p>
+        <p>Predicted Tags:</p>
+        <ul>
+            {% for tag in tags_prediction %}
+                <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

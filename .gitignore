@@ -1,0 +1,14 @@
+.ipynb_checkpoints/
+2024-03-22_22-50-25-bert-model/
+2024-03-23_11-26-10-bert-model/
+venv/
+myEnv/
+mlruns/
+2024-04-07_01-47-00-bert-model/
+__pycache__/
+.venv/
+bert_model_exemple/
+
+venv/Lib/site-packages/torch/lib/torch_cpu.dll
+bert_model_exemple/pytorch_model.bin
+venv/Lib/site-packages/torch/lib/dnnl.lib
